@@ -2,12 +2,19 @@
 <html>
 <head>
 	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/input_freq.css">
 </head>
 <body>
 		<!-- Your code goes here-->
-
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+		<div  style="position:relative;width:600px;height:410px; margin:0 auto;">
+			<h2><marquee style="color:green;font-size:25pt;"> RC Frequency</marquee></h2>   
+                            <input type="button" onclick="window.open('./rc_lpf.html','_blank');" value="RC Low Pass Filter" style="position:absolute; top:70px;  right:110px;"/>
+                             <input type="button" onclick="window.open('./rc_lpf_ver1.html','_blank');" value="RC Low Pass Filter (draw circuit)" style="position:absolute; top:120px;  right:110px;"/>
+                           
+							<input type="button" onclick="window.open('./rc_hpf.html','_blank');" value="RC High Pass Filter" style="position:absolute; top:170px; right:110px;" />
+                          <input type="button" onclick="window.open('./rc_hpf_ver1.html','_blank');" value="RC High Pass Filter (draw cirucit)" style="position:absolute; top:220px; right:110px;" />
+</div>
+	   <!-- Add JS at the bottom of HTML file --> 
+       
 </body>
 </html>
