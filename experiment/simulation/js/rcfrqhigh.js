@@ -138,3 +138,9 @@ function addSymbols(e) {
 }
 
 
+function printf() {
+    // document.getElementById("demo").innerHTML = "";
+    // document.getElementById("demos").innerHTML = "";
+
+    window.print();
+}
