@@ -240,3 +240,9 @@ function addSymbols(e) {
     return CanvasJS.formatNumber(e.value / Math.pow(1000, order)) + suffix;
 }
 
+function printf() {
+    // document.getElementById("demo").innerHTML = "";
+    // document.getElementById("demos").innerHTML = "";
+
+    window.print();
+}
