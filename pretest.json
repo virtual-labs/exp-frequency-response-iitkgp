@@ -1,0 +1,44 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "A signal generator with a negligible internal resistance R<sub>S</sub> is connected to a resistor R=10k&#937; through a coupling capacitor C=1&#956;F . RC Combination acts as <br/><p style=\"text-align:center\"><img src=\"images/rcfrq1.png\"style=\"width:350px;height:200px\"></p>",
+        "answers": {
+          "a": "Low Pass Filter",
+          "b": "High Pass Filter",
+          "c": "None of the above"
+          
+          
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "A signal generator with a negligible internal resistance R<sub>S</sub> is connected to a resistor R=10k&#937; through a coupling capacitor C=1&#956;F . The upper cut off frequency is f<sub>H</sub>  & lower cut off frequency is f<sub>L</sub> <br/><p style=\"text-align:center\"><img src=\"images/rcfrq2.png \" style=\"width:350px;height:200px\"></p>  ",
+        "answers": {
+          "a": "f<sub>H</sub> and f<sub>L</sub> can not be determined from given data",
+          "b": "f<sub>H</sub> = 6.28 kHz ",
+          "c": "15Hz &#8804; f<sub>L</sub> &#8804; 20HZ "
+        
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is correct  ",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d":"You have choosen option (c). The answer is incorrect"
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      }
+      
+    ]
+  }
+  

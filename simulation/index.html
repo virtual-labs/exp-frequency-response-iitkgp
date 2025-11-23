@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Add CSS at the head of HTML file -->
+    <link rel="stylesheet" href="./css/input_freq.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+
+   
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/main.js"></script>
+	
+
+</head>
+<body>
+		<!-- Your code goes here-->
+		<!--div  style="position:relative;width:600px;height:410px; margin:0 auto;">
+			<h2><marquee style="color:green;font-size:25pt;"> RC Frequency</marquee></h2>   
+                            <input type="button" onclick="window.open('./rc_lpf.html','_blank');" value="RC Low Pass Filter" style="position:absolute; top:70px;  right:110px;"/>
+                             <input type="button" onclick="window.open('./rc_lpf_ver1.html','_blank');" value="RC Low Pass Filter (draw circuit)" style="position:absolute; top:120px;  right:110px;"/>
+                           
+							<input type="button" onclick="window.open('./rc_hpf.html','_blank');" value="RC High Pass Filter" style="position:absolute; top:170px; right:110px;" />
+                          <input type="button" onclick="window.open('./rc_hpf_ver1.html','_blank');" value="RC High Pass Filter (draw cirucit)" style="position:absolute; top:220px; right:110px;" />
+</div-->
+	   <!-- Add JS at the bottom of HTML file --> 
+       
+
+	   <div class="container p-3 my-5 border-0">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <marquee class="h3 text-success" > RC Frequency</marquee>
+          <ul class="nav nav-pills nav-justified " role="tablist"> 
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./rc_lpf.html','_blank');" style="cursor: pointer;">  <span class="h5"> RC Low Pass Filter</span>
+                </li><br>
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./rc_lpf_ver1.html','_blank');" style="cursor: pointer;" >
+                    <span class="h5">RC Low Pass Filter (draw circuit) </span>
+                </li><br> 
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./rc_hpf.html','_blank');" style="cursor: pointer;">  <span class="h5"> RC High Pass Filter </span>
+                </li><br>
+                <li class="nav-item nav-link p-2 rounded border border-2"  data-bs-toggle="tab" onclick="window.open('./rc_hpf_ver1.html','_blank');" style="cursor: pointer;"  >
+                    <span class="h5"> RC High Pass Filter (draw cirucit) </span>
+                </li>
+				
+            </div>
+            <div class="col-sm-3"></div>
+          </ul>
+
+
+        </div>
+        <div class="col-md-1"></div>  
+      </div>
+    </div>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+</html>
