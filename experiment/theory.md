@@ -21,13 +21,13 @@ therefore their output level is always less than the input.
 
 
 <div align="center">
-<img src="images/rcfrt1.png" width="50%">
+<img src="images/rcfrt1.png" style="max-width:100%; height:auto;">
 <p>Figure 1 </p>
 </div>
 
 
 <div align="center">
-<img src="images/rcfrt2.png" width="50%">
+<img src="images/rcfrt2.png" style="max-width:100%; height:auto;">
 <p>Figure 2 </p>
 </div>
 
@@ -35,7 +35,7 @@ Let us consider RC circuits as voltage dividers to understand how they would per
 Note that V<sub>out</sub> = ( Z2/ Z1 + Z2 )*Vin. In this case – Since Z1 or Z2 is dependent upon frequency, the output is dependent upon the frequency of the input waveform.
 
 <div align="center">
-<img src="images/rcfrt3.png" width="50%">
+<img src="images/rcfrt3.png" style="max-width:100%; height:auto;">
 <p>Figure 3 </p>
 </div>
 
@@ -44,7 +44,7 @@ RC as Low Pass filter
 A simple passive RC Low Pass Filter or LPF, can be easily made by connecting together in series a single Resistor with a single Capacitor as shown below.
 
 <div align="center">
-<img src="images/rc_lpf_th.png" width="50%">
+<img src="images/rc_lpf_th.png" style="max-width:100%; height:auto;">
 <p>Figure 4 </p>
 </div>
 
@@ -72,7 +72,7 @@ $$\phi =-arctan(2  3.14  f  C_L  R_L)$$
 A simple passive RC High Pass Filter or HPF, can be easily made by connecting together in series a single Resistor with a single Capacitor as shown below. In this type of filter arrangement the input signal (V<sub>in</sub>) is applied to the series combination (both the Resistor and Capacitor together) but the output signal (V<sub>out</sub>) is taken across the resistor only.
 
 <div align="center">
-<img src="images/rc_hpf_th.png" width="50%">
+<img src="images/rc_hpf_th.png" style="max-width:100%; height:auto;">
 <p>Figure 4 </p>
 </div>
 

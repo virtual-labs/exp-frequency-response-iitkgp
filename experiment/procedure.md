@@ -12,7 +12,7 @@
                                     
 
 <div align="center">
-<img src="images/rc_lpf_pr.png" width="50%">
+<img src="images/rc_lpf_pr.png" style="max-width:100%; height:auto;">
 <p>Figure:1</p>
 </div>
 
@@ -32,6 +32,6 @@
 8. Click on "Clear" button to take another set of readings.
 
 <div align="center">
-<img src="images/rc_hpf_pr.png" width="50%">
+<img src="images/rc_hpf_pr.png" style="max-width:100%; height:auto;">
 <p>Figure:2</p>
 </div>
